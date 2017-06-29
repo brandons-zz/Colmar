@@ -214,11 +214,7 @@ section .practicing {
     padding: 0px 0px 24px 24px;
 }
 
-.two-columns .about-us {
-  display: flex;
-  flex-direction: column;
-  width: 423px;
-}
+
 
 .info-box {
     display: flex;
@@ -379,9 +375,6 @@ section .practicing {
 
 .thesis {
   background-color: #fff0e6;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
 }
 
 .thesis-heading {
@@ -400,11 +393,6 @@ section .practicing {
 video {
     width: 100%;
     height: auto;
-}
-
-.about-us-thesis {
-  display: flex;
-  flex-direction: column;
 }
 
 .info-box-thesis {
