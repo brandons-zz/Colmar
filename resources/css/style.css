@@ -15,6 +15,7 @@ html {
 header {
     position: block;
     width: 100%;
+    background-color: #fff0e6;
 }
 
 header .content {
@@ -105,7 +106,7 @@ nav li a:hover {
 
 banner {
   display: flex;
-  background-color: #fff0e6;
+  /*background-color: #fff0e6;*/
   width: 100%;
   align-items: center;
 }
@@ -162,6 +163,7 @@ banner .learn-container {
 
   banner .learn-container {
     padding-top: 180px;
+    padding-bottom: 16px;
   }
 }
 
@@ -177,6 +179,7 @@ section .practicing {
   align-items: flex-start;
   width: 100%;
   margin-bottom: 32px;
+  background-color: #fff0e6;
 }
 
 .practicing-box img{
@@ -270,10 +273,16 @@ section .practicing {
     flex-direction: column;
     align-content: center;
     width: 100%;
+    justify-content: center;
   }
 
   .info-box img {
     width: 100%;
+  }
+
+  .info-text p {
+      line-height: 1.2rem;
+      padding-bottom: 1.65rem;
   }
 }
 
@@ -304,7 +313,7 @@ section .practicing {
 		padding: 0 2rem 2rem 0rem;
 		}
 	.courses-layout article .course-summary {
-		background-color: rgb(255, 255, 255);
+		background-color: #ffffff;
 		padding: 2rem;
 		height: 18rem;
 		overflow: hidden;
@@ -340,6 +349,7 @@ section .practicing {
     align-items: center;
     padding-bottom: 32px;
   }
+
   .courses-layout article {
   		max-width: 100%;
       width: 100%;
@@ -347,7 +357,7 @@ section .practicing {
   	}
 
     .courses-layout article .course-summary {
-  		background-color: rgb(255, 255, 255);
+  		background-color: #ffffff;
   		padding: 2rem;
   		height: 1.5rem;
   		overflow: hidden;
@@ -356,6 +366,10 @@ section .practicing {
 }
 
 /* Thesis Section */
+
+.thesis {
+  background-color: #fff0e6;
+}
 
 .thesis-heading {
   text-align: center;
@@ -367,7 +381,7 @@ section .practicing {
 }
 
 .movie-box {
-  padding: 32px 0px 32px 0px;
+  padding: 32px 0px 16px 0px;
 }
 
 video {
@@ -384,7 +398,7 @@ video {
     display: flex;
     width: 423px;
     align-items: center;
-    padding: 32px 16px 32px 32px;
+    padding: 32px 16px 0px 32px;
 }
 
 .info-box-thesis img {
@@ -400,11 +414,15 @@ video {
 
 /* Final Quote */
 
+.quote-box {
+  /*background-color: #fff0e6;*/
+}
+
 .quote-box h2 {
     color: #666666;
     font-size: 2rem;
     font-weight: 900;
-    padding: 0px 0px 24px 24px;
+    padding: 16px 0px 24px 24px;
 }
 
 .quote-box .quote {
@@ -425,8 +443,12 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+  /*background-color: #fff0e6;*/
 	}
-	footer p {font-size: 1.25rem;}
+
+	footer p {
+    font-size: 1.25rem;
+  }
 
 @media only screen and (max-width: 760px) {
 	footer {justify-content: center;}
