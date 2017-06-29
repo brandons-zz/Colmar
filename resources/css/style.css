@@ -288,10 +288,6 @@ section .practicing {
 
 /* Courses Section */
 
-.courses {
-  background-color: #fff0e6;
-}
-
 .courses .courses-heading {
   text-align: center;
   color: #666666;
@@ -341,6 +337,10 @@ section .practicing {
 
   .courses .desktop {
     display: hidden;
+  }
+
+  .courses {
+    background-color: #fff0e6;
   }
 
   .courses-layout {
