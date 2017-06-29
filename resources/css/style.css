@@ -415,6 +415,10 @@ video {
 
 /* Final Quote */
 
+.quote-box {
+  width: 60%;
+}
+
 .quote-box h2 {
     color: #666666;
     font-size: 2rem;
