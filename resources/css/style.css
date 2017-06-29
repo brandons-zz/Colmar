@@ -176,15 +176,21 @@ section .practicing {
 .two-columns {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
+  justify-content: space-between;
   margin-bottom: 32px;
   background-color: #fff0e6;
 }
 
+.practicing-box {
+  flex-shrink: 1;
+  width: 60%;
+
+}
+
 .practicing-box img{
-    width: 100%;
-    padding: 32px 0px 32px 0px;
+  width: 100%;
+  height: auto;
+  padding: 32px 0px 32px 24px;
 }
 
 .practicing-box h2 {
@@ -218,8 +224,8 @@ section .practicing {
     display: flex;
     width: 423px;
     align-items: center;
-    justify-content: space-around;
     padding-top: 16px;
+
 }
 
 .info-box img {
@@ -314,9 +320,13 @@ section .practicing {
 		height: 18rem;
 		overflow: hidden;
 		}
-	.courses-layout article img {max-width: 100%;}
+	.courses-layout article img {
+    max-width: 100%;
+  }
 
-	.courses-layout article {margin-bottom: 1rem;}
+	.courses-layout article {
+    margin-bottom: 1rem;
+  }
 
   .courses-layout h3 {
 	font-size: 1.5rem;
@@ -369,6 +379,9 @@ section .practicing {
 
 .thesis {
   background-color: #fff0e6;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .thesis-heading {
@@ -381,7 +394,7 @@ section .practicing {
 }
 
 .movie-box {
-  padding: 32px 0px 16px 0px;
+  padding: 32px 0px 16px 24px;
 }
 
 video {
@@ -414,10 +427,6 @@ video {
 
 /* Final Quote */
 
-.quote-box {
-  /*background-color: #fff0e6;*/
-}
-
 .quote-box h2 {
     color: #666666;
     font-size: 2rem;
@@ -433,17 +442,18 @@ video {
 }
 
 @media only screen and (max-width: 760px) {
-	.quote-box {justify-content: center;}
-	}
+	.quote-box {
+    justify-content: center;
+  }
+}
 
 /* Footer */
 
 footer {
-	padding: 2rem 3rem;
+	padding: 16px 0px 32px 24px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-  /*background-color: #fff0e6;*/
 	}
 
 	footer p {
